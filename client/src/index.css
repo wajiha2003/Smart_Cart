@@ -1,0 +1,71 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap");
+
+@theme {
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body:    "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* ── Core palette (SoleStyle-inspired) ── */
+  --color-brand:        #0F172A;   /* near-black navy — logo, headings, CTAs */
+  --color-brand-hover:  #1E293B;   /* hover state on brand */
+  --color-accent:       #0EA5E9;   /* sky blue accent — badges, links, highlights */
+  --color-accent-dark:  #0284C7;   /* hover on accent */
+  --color-accent-soft:  #F0F9FF;   /* light sky tint */
+
+  /* ── Semantic green (kept for success/stock states) ── */
+  --color-mint:         #10B981;
+  --color-mint-dark:    #059669;
+  --color-mint-soft:    #ECFDF5;
+
+  /* ── Neutrals ── */
+  --color-canvas:       #FAFAFA;   /* page bg — off-white, not harsh */
+  --color-surface:      #FFFFFF;   /* cards, panels */
+  --color-border:       #E8ECF0;   /* subtle hairline borders */
+  --color-border-dark:  #C8D0DA;   /* hover borders */
+  --color-ink:          #0F172A;   /* primary text */
+  --color-ink-muted:    #64748B;   /* secondary text */
+  --color-ink-subtle:   #94A3B8;   /* placeholder / disabled */
+
+  /* ── Semantic ── */
+  --color-danger:       #EF4444;
+  --color-warning:      #F59E0B;
+  --color-warning-soft: #FFFBEB;
+
+  /* ── Legacy aliases (used across older components) ── */
+  --color-primary:      #0F172A;
+  --color-primary-dark: #1E293B;
+  --color-primary-soft: #F0F9FF;
+  --color-teal:         #0EA5E9;
+  --color-amber:        #F59E0B;
+  --color-amber-dark:   #D97706;
+  --color-panel:        #FFFFFF;
+  --color-line:         #E8ECF0;
+  --color-ink-light:    #64748B;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+}
+
+/* Thin scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--color-border-dark); border-radius: 99px; }

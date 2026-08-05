@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "d9ec801b-0f95-4b31-87da-c6ba0b77b61a",
+      "name": "Admin User",
+      "email": "admin@smartcart.com",
+      "passwordHash": "$2a$10$17Dcx8Vgmpw5qpROLB2ObOA3DgLa4MmFR70qqbsr/zqpeD7UVZAB.",
+      "role": "admin",
+      "createdAt": "2026-07-14T07:22:10.726Z"
+    },
+    {
+      "id": "91241789-33ef-4f52-bed7-77cccacb0923",
+      "name": "Jane Customer",
+      "email": "customer@smartcart.com",
+      "passwordHash": "$2a$10$Ff0r1irm1DSvT//qBL37..XYDGXiR.3SCsPrN1Ljld8dkhlrhSa..",
+      "role": "customer",
+      "createdAt": "2026-07-14T07:22:10.727Z"
+    },
+    {
+      "id": "1eda4534-ce24-4a74-8568-033ad39f1296",
+      "name": "wajiha adnan",
+      "email": "wajiha.adnan91@gmail.com",
+      "passwordHash": "$2a$10$XYPvJ8AUscsSGCQic.0q8./rTMmKYg0y8DHI/.UZ6ELS82WxB6bDq",
+      "role": "customer",
+      "createdAt": "2026-07-14T07:24:03.852Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "aabdd69e-54c5-4163-b819-4fd4ef2c91cd",
+      "title": "Wireless Noise-Cancelling Headphones",
+      "description": "Over-ear headphones with active noise cancellation, 30-hour battery life, and plush memory-foam ear cushions for all-day comfort.",
+      "highlights": [
+        "Active noise cancellation",
+        "30-hour battery",
+        "Bluetooth 5.2"
+      ],
+      "category": "Electronics",
+      "price": 149.99,
+      "stock": 24,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    },
+    {
+      "id": "921130e7-4750-466a-b5d5-3ac7771e014e",
+      "title": "Smart Fitness Watch",
+      "description": "Track your steps, heart rate, sleep, and workouts with this lightweight smart watch featuring a vibrant AMOLED display.",
+      "highlights": [
+        "Heart rate monitor",
+        "7-day battery",
+        "Water resistant"
+      ],
+      "category": "Electronics",
+      "price": 89.99,
+      "stock": 40,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    },
+    {
+      "id": "0239190d-eb33-407f-81b7-7e8a2e26f64e",
+      "title": "Minimalist Leather Backpack",
+      "description": "A durable, water-resistant leather backpack with a padded laptop sleeve, perfect for work or travel.",
+      "highlights": [
+        "Fits 15-inch laptop",
+        "Water-resistant",
+        "Genuine leather"
+      ],
+      "category": "Fashion",
+      "price": 74.5,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    },
+    {
+      "id": "04bb05c4-52a9-4250-b05a-b646431315e9",
+      "title": "Ceramic Pour-Over Coffee Set",
+      "description": "A hand-glazed ceramic pour-over dripper and matching mug, designed for slow-brew coffee enthusiasts.",
+      "highlights": [
+        "Hand-glazed ceramic",
+        "Includes matching mug",
+        "Fits standard filters"
+      ],
+      "category": "Home & Kitchen",
+      "price": 38,
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    },
+    {
+      "id": "db6f2961-f924-47c4-b353-2e5334f81f4a",
+      "title": "Ergonomic Office Chair",
+      "description": "Mesh-backed ergonomic office chair with adjustable lumbar support, armrests, and headrest for long work sessions.",
+      "highlights": [
+        "Adjustable lumbar support",
+        "Breathable mesh back",
+        "Reclines to 135°"
+      ],
+      "category": "Furniture",
+      "price": 219.99,
+      "stock": 8,
+      "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    },
+    {
+      "id": "73302f9a-7d46-4089-979c-6cc09708fa79",
+      "title": "Stainless Steel Water Bottle",
+      "description": "Double-wall insulated water bottle that keeps drinks cold for 24 hours or hot for 12 hours. BPA-free and leak-proof.",
+      "highlights": [
+        "24h cold / 12h hot",
+        "BPA-free",
+        "Leak-proof lid"
+      ],
+      "category": "Home & Kitchen",
+      "price": 24.99,
+      "stock": 60,
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600",
+      "createdAt": "2026-07-14T07:22:10.728Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "5FFFF2F0",
+      "userId": "1eda4534-ce24-4a74-8568-033ad39f1296",
+      "items": [
+        {
+          "productId": "aabdd69e-54c5-4163-b819-4fd4ef2c91cd",
+          "title": "Wireless Noise-Cancelling Headphones",
+          "price": 149.99,
+          "quantity": 1
+        }
+      ],
+      "total": 149.99,
+      "status": "pending",
+      "shippingAddress": "house#4 street#103 G-13/1 islamabad",
+      "createdAt": "2026-07-14T07:25:12.692Z"
+    }
+  ],
+  "carts": {
+    "1eda4534-ce24-4a74-8568-033ad39f1296": []
+  },
+  "resetTokens": []
+}
