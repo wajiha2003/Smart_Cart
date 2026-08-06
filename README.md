@@ -1,6 +1,6 @@
 # SmartCart
 
-A full-stack eCommerce web app implementing the SmartCart workflow document — **without** the AI product-description feature. Built with React + TypeScript (frontend) and Node.js + Express + TypeScript (backend).
+A full-stack eCommerce web app implementing the SmartCart workflow document — the AI product-description feature. Built with React + TypeScript (frontend) and Node.js + Express + TypeScript (backend).
 
 ## What's included
 
